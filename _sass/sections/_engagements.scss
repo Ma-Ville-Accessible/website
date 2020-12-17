@@ -1,13 +1,13 @@
-h2 {
-    color: #845FF7;
-    margin-bottom: 5em;
+.section-engagements {
+    background-color: grey;
+
+    .engagemennts-container {
+        margin: 0px 5%px;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
 }
 
-.engagemennts-container {
-    margin: 0px 5%px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-}
+
 

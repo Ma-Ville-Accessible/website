@@ -4,10 +4,12 @@
     justify-content: space-around;
     align-items: center;
     text-align: center;
+    width: 350px;
 
 
     img {
-        height: 100px;
+        height: 200px;
+        width: auto;
         margin-bottom: 2em;
 
         @media only screen and (max-width: 700px) {
