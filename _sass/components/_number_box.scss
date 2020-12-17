@@ -1,0 +1,13 @@
+.number-box {
+    height: 250px;
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 10px;
+
+    img {
+        height: 250px;
+        width: auto;
+        margin-right: 50px;
+    }
+}

@@ -1,17 +1,25 @@
-.texte-et-image {
-    display: flex;
-}
+.section-introduction {
+    padding: 0 200px;
 
-h1 {
-    color: #845FF7;
-    margin-bottom: 5em;
-}
+    @media (max-width: 900px) {
+        padding: 0 25px;
+    }
 
-.ma-ville-accessible {
-    margin: 5em 10em;
-}
+    .introduction-container {
+        display: flex;
+        justify-content: space-around;
 
-img {
-    width: 10%;
-    height: auto;
+        .introduction-right-box {
+            div {
+                margin: 50px 0;
+            }
+        }
+    }
+    
+    img {
+        width: 350px;
+        height: auto;
+        margin-left: 100px;
+        box-sizing: border-box;
+    }
 }
