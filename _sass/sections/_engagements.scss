@@ -1,0 +1,17 @@
+h1 {
+    color: #845FF7;
+}
+
+.section-engagements {
+    margin: 0px 5%px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+@media only screen and (min-width: 700px) {
+    .section-engagements {
+        flex-direction: row;
+        margin: 0% 5px;
+    }
+}
