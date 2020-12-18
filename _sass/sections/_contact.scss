@@ -6,23 +6,37 @@
     flex-direction: column;
     align-items: center;
 
+    @media (max-width: 500px) {
+        margin: 100px 0;
+    }
+
     p {
-        width: 700px;
+        max-width: 700px;
         text-align: center;
         font-size: 2.1rem;
         font-weight: 600;
+
+        @media (max-width: 500px) {
+            max-width: 300px;
+            font-size: 1.5rem;
+        }
     }
 
     a {
         color: white;
         font-size: 2rem;
-        background: linear-gradient(225.24deg, #00AFD8 13.88%, rgba(255, 255, 255, 0) 74.89%), #9159FF;
+        background: linear-gradient(225deg, #00AFD8 15%, rgba(255, 255, 255, 0) 75%), #9159FF;
         padding: 25px 100px;
         border-radius: 68px;
         text-decoration: none;
         font-weight: bold;
         transition: 0.3s ease;
         margin: 100px 0;
+
+        @media (max-width: 500px) {
+            font-size: 1.4rem;
+            padding: 25px;
+        }
         
 
         &.link, &:active, &:visited {

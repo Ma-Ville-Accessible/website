@@ -9,6 +9,10 @@ header {
         position: absolute;
         top: 0;
         left: -25vw;
+
+        @media (max-width: 900px) {
+            display: none;
+        }
     }
 
     .header-container {
@@ -17,6 +21,11 @@ header {
         align-items: center;
         max-width: 1440px;
         padding: 50px 100px;
+
+        @media (max-width: 500px) {
+            justify-content: center;
+            padding: 50px 25px;
+        }
 
         img {
             height: 48px;
