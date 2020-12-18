@@ -17,12 +17,17 @@ footer {
         max-width: 1440px;
         margin: auto;
 
+        @media (max-width: 800px) {
+            align-items: flex-end;
+            justify-content: flex-end;
+        }
         .footer-download-part {
             display: flex;
             justify-content: space-around;
 
             .store-button {
                 margin: 0 25px;
+                display: none;
             }
         }
 
@@ -31,9 +36,16 @@ footer {
             justify-content: space-around;
             align-items: center;
 
+            @media (max-width: 800px) {
+                margin-bottom: 5px;
+            }
             p {
                 color: white;
                 font-size: 1.5rem;
+
+                @media (max-width: 800px) {
+                    font-size: 1rem;
+                }
             }
 
             .footer-social-nav {
@@ -49,6 +61,14 @@ footer {
                     height: 64px;
                     margin: 0 25px;
                     transition: 0.2s ease;
+
+                    @media (max-width: 800px) {
+                        height: 32px;
+                        margin: 0 10px;
+                    }
+                }
+                .twitter-logo {
+                    display: none;
                 }
             }
         }
