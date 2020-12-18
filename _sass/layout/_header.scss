@@ -1,13 +1,33 @@
 header {
     max-width: 1440px;
-    height: 100px;
+    height: 150px;
     margin: auto;
     position: relative;
 
-    img {
+    .shape {
         z-index: -3;
         position: absolute;
         top: 0;
         left: -25vw;
+    }
+
+    .header-container {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        max-width: 1440px;
+        padding: 50px 100px;
+
+        img {
+            height: 48px;
+            margin-right: 10px;
+        }
+
+        h2 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: black;
+            margin: 0;
+        }
     }
 }
