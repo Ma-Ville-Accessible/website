@@ -5,6 +5,13 @@
         font-size: 3rem;
         font-weight: bold;
         margin-left: 100px;
+
+        @media (max-width: 500px) {
+            text-align: center;
+            margin-left: 0;
+            margin-bottom: 50px;
+            font-size: 1.5rem;
+        }
     }
 
     .how-container {
