@@ -21,5 +21,9 @@
         height: auto;
         margin-left: 100px;
         box-sizing: border-box;
+
+        @media (max-width: 900px) {
+            display: none;
+        }
     }
 }
